@@ -7,27 +7,34 @@
 }
 * {
   font-family:Arelousa, casual;
-  line-height:2;
 }
       
       h1,h2,h3,h4,h5,h6 {
         line-height:1.5!important;
+        margin:8px;
       }
       body {
               margin:0;
-            }
+      }
+     body, code, textarea, input {
+        line-height:2;
+      }
       code {
         border:3px solid green;
         color:green;
         padding:10px;
         display:block;
-
+        margin:0 8px;
       }
       textarea {
         font-size:24px;
         display:block;
         width:100%;
         color:green;
+        -webkit-appearance:none;
+        margin:0 8px;
+        border:0;
+        border-top:2px solid red;
         border-bottom:2px solid green;
         height:200px;
         padding:0 0 10px;
